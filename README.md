@@ -8,6 +8,7 @@
 ## Setup
 
 ```bash
+$ git install https://github.com/dsc126/cutmix.git
 $ pip install -r requirements.txt
 $ python setup.py install
 ```
