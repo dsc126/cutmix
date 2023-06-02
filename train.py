@@ -51,7 +51,7 @@ parser.add_argument('--cv', default=-1, type=int)
 parser.add_argument('--only-eval', action='store_true')
 parser.add_argument('--checkpoint', default='', type=str)
 parser.add_argument('--mode', default='CutMix', help='mode of augmentation')
-parser.add_argument('--tensorboard', default=1)
+parser.add_argument('--tensorboard', action='store_true')
 
 parser.set_defaults(bottleneck=True)
 parser.set_defaults(verbose=True)
