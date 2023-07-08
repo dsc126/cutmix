@@ -1,5 +1,8 @@
 dataset: cifar100
-
+net_type: transformer
+depth: 9
+patch_size: 4
+embedding_size: 512
 batch_size: 64
 
 cutmix:
